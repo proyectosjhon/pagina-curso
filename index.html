@@ -1,209 +1,125 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página WEB Jhon</title>
-    <link rel="stylesheet" href="css/estilos.css" />
-    <link
-      rel="shortcut icon"
-      href="img/android-icon-36x36.png"
-      type="image/x-icon"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Teletrabajo</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Acerca De</a>
-        <a href="#">Portafolio</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
-      </nav>
-      <section class="textos-header">
-        <h1>Potencia tus ventas al menos en un 200%</h1>
-        <h2>con una pagina web potente</h2>
-      </section>
-      <div class="wave" style="height: 150px; overflow: hidden">
-        <svg
-          viewBox="0 0 500 150"
-          preserveAspectRatio="none"
-          style="height: 100%; width: 100%"
-        >
-          <path
-            d="M0.00,49.98 C149.99,150.00 340.00,-28.13 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-            style="stroke: none; fill: #fff"
-          ></path>
-        </svg>
-      </div>
+    <!--Encabezado-->
+    <header class="container-fluid bg-primary text-center justify-content-center">
+        <h1 class="text-light p-2 fs-4">Teletrabajo</h1>
+        <h4 class="text-light p-1 fs-4">Jhon Estip Taborda</4>
+        <h4 class="text-light p-1 fs-4"> <b>Tutor: </b>Harold Emilio Cabrera</h4>
     </header>
-    <main>
-      <section class="contenedor sobre-nosotros">
-        <h2 class="titulo">Nuestros productos</h2>
-        <div class="contenedor-sobre-nosotros">
-          <img
-            src="img/Finger print_Isometric.png"
-            alt=""
-            class="imagen-about-us"
-          />
-          <div class="contenido-textos">
-            <h3><span>1</span>Los Mejores productos</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              alias sequi aliquam adipisci esse hic est dignissimos deleniti
-              modi vitae fugit officiis ad, totam doloremque libero magni
-              excepturi error asperiores.
-            </p>
-            <h3><span>2</span>Los Mejores productos</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              alias sequi aliquam adipisci esse hic est dignissimos deleniti
-              modi vitae fugit officiis ad, totam doloremque libero magni
-              excepturi error asperiores.
-            </p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-2" id="menu">
+        <a class="navbar-brand" href="#">
+            <span><a class="nav-link text-primary fs-6 fw-bold" href="index.html"><h3>Inicio</h3></a></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="navbar-nav ml-auto p-2" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link fw-bold" href="#descripcionPlataformas" id="desc">Descripción de plataformas<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link fw-bold" href="#" id="desc">Implementos Teletrabajo<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link fw-bold" href="#" id="desc">Marco Juridico<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+      <!--Carrousel-->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img class="d-block w-100" src="./img/Slide_1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img class="d-block w-100" src="./img/Slide_2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img class="d-block w-100" src="./img/Slide_3.jpg" alt="Third slide">
           </div>
         </div>
-      </section>
-      <section class="portafolio">
-        <div class="contenedor">
-          <h2 class="titulo">Portafolio</h2>
-          <div class="galeria-port">
-            <div class="imagen-port">
-              <img src="img/img3.jpg" alt="" />
-              <div class="hover-galeria">
-                <img src="img/podcast-regular-24.png" alt="" />
-                <p>Nuestro Trabajo</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img src="img/img10.jpg" alt="" />
-              <div class="hover-galeria">
-                <img src="img/podcast-regular-24.png" alt="" />
-                <p>Nuestro Trabajo</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img src="img/img4.jpg" alt="" />
-              <div class="hover-galeria">
-                <img src="img/podcast-regular-24.png" alt="" />
-                <p>Nuestro Trabajo</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img src="img/img5.jpg" alt="" />
-              <div class="hover-galeria">
-                <img src="img/podcast-regular-24.png" alt="" />
-                <p>Nuestro Trabajo</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img src="img/img6.jpg" alt="" />
-              <div class="hover-galeria">
-                <img src="img/podcast-regular-24.png" alt="" />
-                <p>Nuestro Trabajo</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img src="img/img7.jpg" alt="" />
-              <div class="hover-galeria">
-                <img src="img/podcast-regular-24.png" alt="" />
-                <p>Nuestro Trabajo</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img src="img/img8.jpg" alt="" />
-              <div class="hover-galeria">
-                <img src="img/podcast-regular-24.png" alt="" />
-                <p>Nuestro Trabajo</p>
-              </div>
-            </div>
-            <div class="imagen-port">
-              <img src="img/img9.jpg" alt="" />
-              <div class="hover-galeria">
-                <img src="img/podcast-regular-24.png" alt="" />
-                <p>Nuestro Trabajo</p>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <section class="w-75 mx-auto text-center p-5">
+          <h1><span class="text-primary">Descripcion y elementos que se requieren para el teletrabajo</span></h1>
+          <p class="p-3"><span>En este documento estudiaremos la descripción de plataformas que se utilizarían 
+              para implementar teletrabajo en una empresa.</span></p>
+        <hr>
+        <hr>
+         <p class="p-3"><span>Qué elementos se requieren para implementar teletrabajo,
+              también veremos que leyes regulan este tipo de trabajo en Colombia.</span></p>
+        <article>
+          <a name="descripcionPlataformas"/>
+          <h1>Descripción de plataformas para realizar teletrabajo</h1> 
+          <p class="p-2">En este enunciado realizaremos una pequeña descripcion de algunas de las plataformas
+            que se requieren para realizar el teletrabajo, sabemos que hoy en día y más, en el transcurso
+            de la pandemia relacionada con el Covid-19, el teletrabajo a aumentado en gran porcentaje en el trancurso de los ultimos años 
+            a continuacion veremos algunas de las plataformas para ayudarnos en el desarrollo de las actividades laborales desde nuestros
+            hogares.
+          </p>
+        </article>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top p-2" src="./img/VideoConf.png" alt="Plat Video conferencias" style="border: 1px; border-radius: 3px; border-color: blue;">
+              <div class="card-body">
+                <h5 class="card-title">Plataformas Video conferencia</h5>
+                <p class="card-text p-1">Estas nos ayudan a comunicarnos con nuestro equipo de trabajo, sea a través de llamada o de conversación por chat, facilitando la interacción con nuestros compañeros en la solución de proyectos en los cuales todos no veamos involucrados, allí podemos encontrar varias como lo son Teams, Skype, Zoom entre otras.</p>
+                <br>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="clientes contenedor">
-        <h2 class="titulo">Que dicen nuestros clientes</h2>
-        <div class="cards">
-          <div class="card">
-            <img src="img/img1.jpg" alt="" />
-            <div class="contenido-texto-card">
-              <h4>Name</h4>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernatur, earum.
-              </p>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top p-1" src="./img/GestionProyect.png" alt="Gestión de proyectos">
+              <div class="card-body">
+                <h5 class="card-title">Gestión de proyectos</h5>
+                <p class="card-text ">Dichas herramientas nos ayudan a organizarnos y gestionar nuestros proyectos otorgando labores y realizando un control de cada estado de las tareas que estamos desarrolando, asi logramos optimizar tiempos de entregas como el rendimiento de cada uno de los integrantes del equipo,
+                  algunas de estas herramientas son: Trello, Asana, Microsoft proyect, Flask entre otras.
+                </p>
+                <br>
+                <br>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <img src="img/img2.jpg" alt="" />
-            <div class="contenido-texto-card">
-              <h4>Name</h4>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aspernatur, earum.
-              </p>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top p-1" src="./img/Versiones.png" alt="Control de versiones">
+              <div class="card-body">
+                <h5 class="card-title">Control de Versiones</h5>
+                <p class="card-text">Esta Herramientas nos ayudan a trabajar de una forma mu agradable en equipo ya que un o varias personas pueden realizar cambios a documentacion los cuales se encuentren almacenados en un repositorio el cual pertenece a una organizacion, una ventaja de estas herramientas es que podemos crear ramas y asi mismo poder asiganrle los usuarios a cada una de estas ramas en estos podemos encontrar a GIT o SubversionSVN</p>
+                <br>
+             </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="about-services">
-        <div class="contenedor">
-          <h2 class="titulo">Nuestros servicios</h2>
-          <div class="servicio-cont">
-            <div class="servicio-ind">
-              <img src="img/Data storage_Monochromatic.png" alt="" />
-              <h3>Name</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Similique, repellat.
-              </p>
-            </div>
-            <div class="servicio-ind">
-              <img src="img/Online protection_Monochromatic.png" alt="" />
-              <h3>Name</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Similique, repellat.
-              </p>
-            </div>
-            <div class="servicio-ind">
-              <img src="img/Video call_Monochromatic.png" alt="" />
-              <h3>Name</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Similique, repellat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>Phone</h4>
-                <p>89963112762178</p>
-            </div>
-            <div class="content-foo">
-                <h4>Email</h4>
-                <p>89963112762178</p>
-            </div>
-            <div class="content-foo">
-                <h4>Location</h4>
-                <p>89963112762178</p>
-            </div>
-        </div>
-        <h2 class="titulo-final">&copy; JhonDesign</h2>
-    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
